@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/style2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/subj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="17"
+        android:fontFamily="@font/eagle_lake"
+        android:padding="5dp"
+        android:text="subject"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"></TextView>
+
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text=" 0 %"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:padding="10dp"
+        android:id="@+id/percent"
+        android:textSize="25sp"
+></TextView>
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/button"
+android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:background="@drawable/edit"
+            android:fontFamily="@font/chewy"
+
+            ></Button>
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/button1"
+        android:layout_weight="1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:background="@drawable/delete"
+        android:fontFamily="@font/chewy"
+
+        ></Button>
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="15dp"
+            android:fontFamily="@font/amita"
+            android:text="total number of classes : "
+            android:textColor="@android:color/white">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/to"
+
+            android:textColor="@android:color/white"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/amita"
+            android:text="number of present classes: "
+            android:textColor="@android:color/white">
+
+        </TextView>
+
+        <TextView
+
+            android:textColor="@android:color/white"
+            android:id="@+id/pr"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    </LinearLayout>
